@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/formbean
+END
+DeletePostForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/formbean/DeletePostForm.class
+END
+LoginForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/webapps/team25/!svn/ver/49/trunk/share/Footprint/WEB-INF/classes/formbean/LoginForm.class
+END
+ImgForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/webapps/team25/!svn/ver/85/trunk/share/Footprint/WEB-INF/classes/formbean/ImgForm.class
+END
+RelationUserForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/webapps/team25/!svn/ver/65/trunk/share/Footprint/WEB-INF/classes/formbean/RelationUserForm.class
+END
+BrowseUserForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/webapps/team25/!svn/ver/65/trunk/share/Footprint/WEB-INF/classes/formbean/BrowseUserForm.class
+END
+UpdateProfileForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/webapps/team25/!svn/ver/99/trunk/share/Footprint/WEB-INF/classes/formbean/UpdateProfileForm.class
+END
+RegisterForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/formbean/RegisterForm.class
+END
+PostForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/formbean/PostForm.class
+END
+SearchForm.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/formbean/SearchForm.class
+END

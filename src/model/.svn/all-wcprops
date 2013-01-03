@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/src/model
+END
+Model.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/webapps/team25/!svn/ver/56/trunk/share/Footprint/src/model/Model.java
+END
+DAOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/webapps/team25/!svn/ver/49/trunk/share/Footprint/src/model/DAOException.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/webapps/team25/!svn/ver/85/trunk/share/Footprint/src/model/UserDAO.java
+END
+PostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/src/model/PostDAO.java
+END

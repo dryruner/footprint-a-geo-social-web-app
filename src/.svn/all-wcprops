@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/webapps/team25/!svn/ver/131/trunk/share/Footprint/src
+END
+user.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/webapps/team25/!svn/ver/80/trunk/share/Footprint/src/user.hbm.xml
+END
+post.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/webapps/team25/!svn/ver/76/trunk/share/Footprint/src/post.hbm.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/webapps/team25/!svn/ver/56/trunk/share/Footprint/src/hibernate.cfg.xml
+END

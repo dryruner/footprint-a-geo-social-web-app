@@ -1,0 +1,43 @@
+.post_box {
+	width:100%; 
+	border-radius: 2px;
+	border:1px solid #CCC;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.title {
+	background:#F2F2F2;
+}
+
+.title p{
+	display:inline;
+}
+
+.title strong{
+	padding: 10px 0 10px 0;
+}
+
+.title_spliter {
+	border-top: 1px solid black;
+	width: 100%;
+	margin:0;
+}
+
+.post_box p {
+	font-size:1em;
+}
+
+.post_box .title p#zhanwei {
+	padding:0 50px;
+}
+
+.box_area {
+	resize:none;
+	width:99%;
+	padding:0 2px;
+	margin:0;
+}
+
+.box_button {
+	padding:5px 30px;
+}

@@ -1,0 +1,126 @@
+.boxbox {
+	padding: 20px 0 0 25px;
+}
+
+.nav{
+	margin-bottom: 10px;
+}
+
+.feed-item-spliter {
+	border-top:1px solid #CCC;
+	width:100%;
+}
+
+.map_sign {
+	float:left;
+	padding:5px 20px 5px 5px;
+}
+
+.feed_item{
+	float:left;
+	padding:12px 0 0 0;
+}
+
+.place{
+	font-size:1em;
+}
+
+.place_home{
+	font-size:1.3em;
+}
+
+.icon_hehe {
+		margin:5px 5px 0 5px;
+}
+
+.nima {
+	padding:5px 0 0 5px;
+}
+
+.item_image {
+	width:200px;
+	height:120px;
+}
+
+.gallery_image {
+	float:left;
+	padding:5px 15px 5px 5px;
+	width:140px;
+	height:140px;
+}
+
+.photo_gallery p{
+	font-size:1em;
+	margin:-10px 5px -5px 5px;
+}
+.small_line {
+	display:inline;
+	font-size:0.9em; 
+	color:gray;
+}
+
+.weibo_like {
+	font-size:0.6em;
+	text-align:center;
+	border-right:1px solid #C5C4C4;
+}
+
+.weibo_like .hehe {
+	margin:-10px 0 0 0;
+}
+
+.weibo_like strong{
+	font-size:1.5em;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.pf_item{
+	line-height:30px;
+}
+
+.pf_item .label_hsy{
+	float: left;
+	width: 100px;
+	text-align: left;
+	color:gray;
+	padding: 0 0 0 20px;
+}
+
+.pf_item .con {
+	margin-left: 150px;
+}
+
+.con_label {
+	margin:0;
+	line-height:30px;
+	display:inline;
+}
+
+.con .status {
+	width:130px;
+	margin:0;
+	height:22px;
+}
+
+.con .blood_type {
+	width:68px;
+	margin:0;
+	height:22px;
+}
+
+.con input[type="text"] {
+	margin:0;
+	padding:0;
+}
+
+.all_user {
+	padding:0;
+	color:gray;
+}
+
+.navbar .nav li a.right_bar {
+	padding:7px 3px 9px 3px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="databean.Post" table="post">
+   <id name="id">
+      <generator class="native" />
+   </id>
+   <property name="content" />
+   <property name="createTime" not-null="true" />
+   <property name="latitude" not-null="true" />
+   <property name="longitude" not-null="true" />
+   <property name="location" />
+   <property name="imgURL" />
+   <many-to-one name="author" class="databean.User" column="email" lazy="false"/>
+ </class>
+</hibernate-mapping>

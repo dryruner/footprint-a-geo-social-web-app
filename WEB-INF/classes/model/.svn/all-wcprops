@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/model
+END
+Model.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/webapps/team25/!svn/ver/56/trunk/share/Footprint/WEB-INF/classes/model/Model.class
+END
+DAOException.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/webapps/team25/!svn/ver/49/trunk/share/Footprint/WEB-INF/classes/model/DAOException.class
+END
+UserDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/webapps/team25/!svn/ver/85/trunk/share/Footprint/WEB-INF/classes/model/UserDAO.class
+END
+PostDAO.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/webapps/team25/!svn/ver/108/trunk/share/Footprint/WEB-INF/classes/model/PostDAO.class
+END

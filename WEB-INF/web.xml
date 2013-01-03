@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <display-name>Footprint Website</display-name>
+    <description>
+      Configuration file for the Footprint website
+    </description>
+
+  <!-- This definition specifies the controller servlet.                                     -->
+  <!-- The following parameters may be / must be specified:                                  -->
+  <!--                                                                                       -->
+  <!--    dataDirectory - set to cause "entry" and "user" tables to be stored in CSV files.  -->
+  <!--           If not set, you must set the JDBC params and data will be stored in MySQL.  -->
+  <!--                                                                                       -->
+  <!--    localNetAddr - special priviledges are given to local users.  Specifically, read   -->
+  <!--           access to the AddrBook without logging in and the ability to create the     -->
+  <!--           initial user account when the app is first started.  Specify a local IP     -->
+  <!--           address.  This address will be compared (using String.equals()) with the    -->
+  <!--           remote IP address of the request.  If it matches, it's local.               -->
+  <!--                                                                                       -->
+  <!--    jdbcDriverName - set to specify the name of the JDBC Driver class to store in a    -->
+  <!--           MySQL database.  Also set "jdbcURL" param, but do not set set  the          -->
+  <!--           "dataDirectory" param.  It's checked first.                                 -->
+  <!--                                                                                       -->
+  <!--    jdbcURL - set to specify the localtion of the database in MySQL.  Also set the     -->
+  <!--           "jdbcURL" param, but do not set set  the "dataDirectory" param.             -->
+  <!--                                                                                       -->
+  <!--    localNetPrefix - special priviledges are given to local users, as described        -->
+  <!--           above (under "localNetAddr").  To allow an entire subnet to have local      -->
+  <!--           access, specify the subnet prefix.  For example to allow local access to    -->
+  <!--           Carnegie Mellon Univeristy wired users, specify "128.2." as the prefix.     -->
+  <!--           Users have addresses starting with "128.237." and would be remote.          -->
+  <!--                                                                                       -->
+  <!--    numBackups - optionally set to specify the number of backups the CSV BeanFactory   -->
+  <!--           should make of the "entry" and "user" tables.  If not set the BeanFactory   -->
+  <!--           (current 5) will be used (only if stored data in CSV files).                -->
+  <!--                                                                                       -->
+  <!--    requireSSL - set to cause non-secure requests to be redirected back to the site    -->
+  <!--           on port 443 (or port 8443 if the request came in on port 8080).             -->
+
+
+    <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>controller.Controller</servlet-class>
+
+        <init-param>
+        	<param-name>  requireSSL             </param-name>
+        	<param-value> false                  </param-value>
+        </init-param>
+       
+        <init-param>
+	        <param-name>  dataDirectory          </param-name>
+	        <param-value>                        </param-value>
+        </init-param>
+        
+        <init-param>
+	        <param-name>  numBackups             </param-name>
+	        <param-value> 10                     </param-value>
+        </init-param>
+
+        <init-param>
+		    <param-name>  jdbcDriverName         </param-name> 
+		    <param-value> com.mysql.jdbc.Driver  </param-value>
+        </init-param>
+        
+        <init-param>
+        	<param-name>  jdbcURL                </param-name> 
+	    	<param-value> jdbc:mysql:///footprint </param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>    controller             </servlet-name>
+        <url-pattern>     *.do                   </url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>    controller             </servlet-name>
+        <url-pattern>     /start                 </url-pattern>
+    </servlet-mapping>
+
+	
+
+    <welcome-file-list>
+        <welcome-file>    start                  </welcome-file>
+    </welcome-file-list>
+
+    <login-config>
+        <auth-method>     BASIC                  </auth-method>
+    </login-config>
+
+</web-app>
