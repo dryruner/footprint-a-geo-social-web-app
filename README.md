@@ -4,5 +4,5 @@
 * You need Apache Tomcat to deploy and run this webapp.
 
 ## Teammate
-* Linkai xi (back-end)
-* Siyuan Hua(me) (front-end)
+* Linkai xi (back-end lxi@andrew.cmu.edu)
+* Siyuan Hua(me) (front-end siyuanh@andrew.cmu.edu)
